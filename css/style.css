@@ -150,6 +150,8 @@ header a {
 .jumbotron {
     margin-top: 100px;
     background-color: #b4d0e7;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 .jumbobox {
@@ -173,6 +175,7 @@ header a {
 .jumbotron p {
     font-size: 20px;
     line-height: 30px;
+    margin-top: 20px;
 }
 
 .jumbotron a {
@@ -189,6 +192,12 @@ header a {
 .jumbotron i {
     color: black;
     font-size: 50px;
+}
+
+.jumbotron img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
 }
 
 /* main */
