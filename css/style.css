@@ -4,5 +4,55 @@
     padding: 0;
 }
 
+/* debug */
+
+.debug header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(133, 53, 199);
+    position: fixed ;
+    left: 0;
+    top: 0;
+
+}
+
+.debug header nav .navsin {
+    height: 100px;
+    background-color: chartreuse;
+    width: 30%;
+
+}
+
+.debug header nav .navdes {
+    height: 100px;
+    background-color: crimson;
+    width: 30%;
+
+}
+
+.debug header .menu 
+
+/* common */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
 
 
+
+/* header */
+
+
+
+
+/* main */
