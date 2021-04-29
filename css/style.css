@@ -6,7 +6,7 @@
 
 /* debug */
 
-.debug header {
+/* .debug header {
     height: 100px;
     width: 100%;
     background-color: rgb(133, 53, 199);
@@ -30,7 +30,25 @@
 
 }
 
-.debug header .menu 
+.menu {
+    position: relative;
+}
+
+.navsin {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.navdes {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+} */
+
+
+ 
 
 /* common */
 .clearfix::after {
@@ -48,9 +66,56 @@
     float: right;
 }
 
+.navsin ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navdes ul li {
+    list-style: none;
+    display: inline-block;
+}
 
 
 /* header */
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed ;
+    left: 0;
+    top: 0;
+
+}
+.menu {
+    position: relative;
+}
+
+.navsin {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%;
+    padding: 20px 0;
+}
+
+.navdes {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px 0;
+    padding-right: 20px;
+
+}
+
+#imglogo {
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+
+}
+
+
+
 
 
 
