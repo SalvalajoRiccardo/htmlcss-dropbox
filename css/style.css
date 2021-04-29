@@ -201,4 +201,25 @@ header a {
 }
 
 /* main */
+/* sezione costi */
+
+/* debug */
+
+.debug .costileft {
+    background-color: blue;
+    width: 30%;
+    height: 600px;
+}
+
+.debug .costimid {
+    background-color: green;
+    width: 30%;
+    height: 600px;
+}
+
+.debug .costiright {
+    background-color: violet;
+    width: 30%;
+    height: 600px;
+}
 
