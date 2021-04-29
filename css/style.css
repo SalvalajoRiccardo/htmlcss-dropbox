@@ -84,6 +84,9 @@ header {
 }
 .menu {
     position: relative;
+    height: 100px;
+    width: 100%;
+    
 }
 
 .navsin {
@@ -91,15 +94,15 @@ header {
     left: 0;
     top: 0;
     width: 40%;
-    padding: 20px 0;
+    
 }
 
 .navdes {
     position: absolute;
     right: 0;
     top: 0;
-    padding: 20px 0;
-    padding-right: 20px;
+    
+    
 
 }
 
