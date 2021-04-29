@@ -186,7 +186,10 @@ header a {
     font-style: italic;
 }
 
-
+.jumbotron i {
+    color: black;
+    font-size: 50px;
+}
 
 /* main */
 
