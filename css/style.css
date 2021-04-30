@@ -413,3 +413,39 @@ header a {
     padding: 20px;
 
 }
+
+/* sezione partner */
+
+.boxpartner {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.imgpartner {
+    width: 48%;
+}
+
+.imgpartner img {
+    width: 100%;
+}
+
+.scrittepartner {
+    width: 48%;
+    padding: 100px 60px;
+}
+
+.scrittepartner h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.scrittepartner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.scrittepartner a {
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid black;
+}
