@@ -249,11 +249,11 @@ header a {
 }
 
 .costibox h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .selezfattura {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .selezfattura span {
@@ -280,10 +280,12 @@ header a {
     border: 1px solid #b8b8b8 ;
     margin-left: 20px;
 }
-
+/* parte centrale costi */
 .costilat {
     width: calc(100% / 3 - 40px);
     height: 600px;
+    margin-top: 50px;
+    
    
 }
 
@@ -300,4 +302,32 @@ header a {
     margin-top: 40px;
     
 
+}
+
+.costicol span {
+    display: block;
+}
+
+.intcolonna {
+    border: 1px solid #b8b8b8 ;
+    padding: 10px 30px;
+    text-align: center;
+    border-bottom: none;
+}
+
+.corpocol {
+    border: 1px solid #b8b8b8 ;
+    padding: 30px;
+}
+
+/* Parte superiore colonna */
+.corpocoltop {
+    height: 140px;
+    margin-bottom: 30px ;
+    line-height: 40px;
+}
+
+.corpocoltop h3:first-child {
+    font-size: 35px;
+    
 }
