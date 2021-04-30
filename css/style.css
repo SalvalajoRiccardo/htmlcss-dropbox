@@ -340,12 +340,10 @@ header a {
 
 .corpocolmid li {
     padding-bottom: 20px;
+    
 }
 
 .corpocolmid span {
     display: inline-block;
 }
 
-.folder::before {
-    list-style-image: url(../img/folder-regular.svg);
-}
