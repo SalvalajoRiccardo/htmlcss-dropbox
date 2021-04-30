@@ -55,7 +55,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.clearfix:after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -244,7 +244,7 @@ header a {
 /* pate sup costi */
 .costibox {
     width: 60%;
-    margin: auto;
+    margin: 0 auto;
     margin-top: 200px;
 }
 
@@ -283,7 +283,7 @@ header a {
 /* parte centrale costi */
 .costilat {
     width: calc(100% / 3 - 40px);
-    height: 600px;
+    
     margin-top: 50px;
     
    
@@ -291,19 +291,12 @@ header a {
 
 .costimid {
     width: calc(100% / 3 - 40px);
-    height: 600px;
+    
     margin: 0 60px;
     margin-top: 50px;
 }
 
 
-.costidown {
-    width: 100%;
-    height: 300px;
-    margin-top: 40px;
-    
-
-}
 
 .costicoltop span {
     display: block;
@@ -319,6 +312,7 @@ header a {
 .corpocol {
     border: 1px solid #b8b8b8 ;
     padding: 30px;
+    height: 970px;
 }
 
 /* Parte superiore colonna */
@@ -372,4 +366,50 @@ header a {
 
 .corpocolbot li {
     padding-top: 20px;
+}
+
+/* Parte inferiore costi */
+.costidown {
+    width: 100%;
+    height: 300px;
+    margin-top: 40px;
+    
+
+}
+
+.costicorpobot{
+    border: 1px solid #b8b8b8 
+}
+
+
+
+.corpobotsin {
+    width: 68%;
+    padding: 30px;
+}
+
+.corpobotsin h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.corpobotsin h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.corpobotsin p {
+    font-size: 15px;
+    
+}
+
+.corpobotdes {
+    width: 30%;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.corpobotdes a {
+    padding: 20px;
+
 }
