@@ -82,7 +82,7 @@ li {
 
 /* header */
 header {
-    height: 100px;
+    height: 80px;
     width: 100%;
     position: fixed ;
     left: 0;
@@ -91,6 +91,7 @@ header {
     border-bottom: 1px solid #d0d0d3;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+    z-index: 9999;
 
 }
 
@@ -101,9 +102,10 @@ header a {
 
 .menu {
     position: relative;
-    height: 100px;
+    height: 80px;
     width: 100%;
-    line-height: 100px;
+    line-height: 78px;
+    
     
 }
 
@@ -111,7 +113,7 @@ header a {
     position: absolute;
     left: 0;
     top: 0;
-    width: 40%;
+    
     
 }
 
@@ -143,12 +145,15 @@ header a {
     font-size: 20px;
 }
 
+.menu li:hover {
+    border-bottom: 2px solid black;
+}
 
 
 /* jumbotron */
 
 .jumbotron {
-    margin-top: 100px;
+    margin-top: 80px;
     background-color: #b4d0e7;
     position: relative;
     padding-bottom: 100px;
@@ -198,6 +203,7 @@ header a {
     position: absolute;
     top: 40%;
     left: 40%;
+    width: 60%;
 }
 
 /* main */
