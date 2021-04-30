@@ -304,7 +304,7 @@ header a {
 
 }
 
-.costicol span {
+.costicoltop span {
     display: block;
 }
 
@@ -330,4 +330,22 @@ header a {
 .corpocoltop h3:first-child {
     font-size: 35px;
     
+}
+
+/* parte mid colonna */
+
+.corpocolmid {
+    line-height: 21px;
+}
+
+.corpocolmid li {
+    padding-bottom: 20px;
+}
+
+.corpocolmid span {
+    display: inline-block;
+}
+
+.folder::before {
+    list-style-image: url(../img/folder-regular.svg);
 }
