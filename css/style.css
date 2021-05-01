@@ -445,6 +445,7 @@ header a {
 }
 
 .scrittepartner a {
+    color: black;
     padding: 10px 20px;
     text-decoration: none;
     border: 1px solid black;
@@ -455,6 +456,7 @@ header a {
     width: 60%;
     margin: 0 auto;
     margin-top: 60px;
+    margin-bottom: 100px;
 
 }
 
@@ -489,4 +491,97 @@ header a {
 .operazionibox p{
     line-height: 25px;
     font-size: 18px;
+}
+
+.operazionibox a {
+    color: black;
+}
+
+/* sezione associate */
+
+.assinit {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.assinit h2 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.assinit a {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #0061ff;
+}
+
+.assbox {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.quadro {
+    width: 16vw;
+    height: 16vw;
+    display: inline-block;
+    
+}
+
+.quadro img {
+    width: 100%;
+    filter: invert(100%);
+}
+
+/* parte sin */
+#designit {
+    background-color:#a2d39b;
+    padding: 100px 40px;
+   
+}
+
+#asu {
+    background-color: #61082b;
+    padding: 90px 80px;
+}
+
+
+#uf {
+    background-color: #0093ce;
+    padding: 110px 40px;
+}
+
+#topps {
+    background-color: #ff1c1c;
+    padding: 100px 50px;
+
+}
+/* parte centrale */
+.assmid {
+    
+    width: 33vw;
+    height: 32vw;
+}
+
+/* parte des */
+
+#wbr {
+    background-color: #d5001f;
+    padding: 100px 50px;
+}
+
+#hearts {
+    background-color: #b4d0e7;
+    padding: 120px 50px;
+}
+
+#lonely {
+    background-color: #0d2481;
+    padding: 100px 50px;
+}
+
+#channel {
+    background-color: #ffd830;
+    padding: 100px 50px;
+
 }
