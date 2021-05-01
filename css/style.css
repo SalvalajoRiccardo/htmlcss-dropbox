@@ -449,3 +449,44 @@ header a {
     text-decoration: none;
     border: 1px solid black;
 }
+
+/* sezione operazioni */
+.operazionibox {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+
+}
+
+.operazionibox img {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.operazionilat {
+    width: calc(100% / 3 - 40px);
+}
+
+.operazionimid {
+    width: calc(100% / 3 - 40px);
+    margin: 0 60px;
+}
+
+.operazionibox h2{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.operazionitop {
+    margin-bottom: 40px;
+}
+
+.operazionibox h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.operazionibox p{
+    line-height: 25px;
+    font-size: 18px;
+}
