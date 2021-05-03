@@ -360,7 +360,7 @@ header a {
 
 .lineetta {
     margin-top: 30px;
-    margin-right: 170px;
+    margin-right: 200px;
     margin-bottom: 30px;
     color: #b8b8b8;
 }
@@ -545,52 +545,81 @@ header a {
 /* parte sin */
 #designit {
     background-color:#a2d39b;
-    padding: 110px 40px;
+    padding: 6vw 3vw;
    
 }
 
 #asu {
     background-color: #61082b;
-    padding: 90px 80px;
+    padding: 6vw 4vw;
 }
 
 
 #uf {
     background-color: #0093ce;
-    padding: 130px 40px;
+    padding: 7vw 3vw;
 }
 
 #topps {
     background-color: #ff1c1c;
-    padding: 100px 50px;
-
+    padding: 6vw 3vw;
 }
 /* parte centrale */
 .assmid {
-    
+    padding: 90px 50px;
     width: 33vw;
     height: 32vw;
+    overflow: auto;
+}
+
+.assmid img {
+    width: 35%;
+}
+
+.assmid hr {
+    margin-right: 22vw;
+}
+
+.assmid p {
+    line-height: 26px;
+    margin: 90px 0px;
+}
+
+.assmid span {
+    font-size: 14px;
 }
 
 /* parte des */
 
 #wbr {
     background-color: #d5001f;
-    padding: 100px 50px;
+    padding: 6vw 3vw;
 }
 
 #hearts {
     background-color: #b4d0e7;
-    padding: 130px 50px;
+    padding: 7vw 3vw;
 }
 
 #lonely {
     background-color: #0d2481;
-    padding: 100px 50px;
+    padding: 6vw 3vw;
 }
 
 #channel {
     background-color: #ffd830;
-    padding: 100px 50px;
+    padding: 6vw 3vw;
+
+}
+
+/* parte sotto */
+
+.iniziaprova {
+    background-color: #b4d0e7;
+}
+
+.iniziaprova h2 {
+    color: #61082b;
+    font-size: 40px;
 
 }
