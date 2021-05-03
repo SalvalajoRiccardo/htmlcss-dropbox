@@ -55,6 +55,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .clearfix::after {
     content: "";
     display: table;
@@ -616,10 +617,86 @@ header a {
 
 .iniziaprova {
     background-color: #b4d0e7;
+    padding: 110px 350px;
+}
+
+#h2prova {
+    width: 70%;
+}
+
+#aprova {
+    padding-top: 20px;
+    padding-left: 50px;
 }
 
 .iniziaprova h2 {
     color: #61082b;
-    font-size: 40px;
+    font-size: 50px;
 
 }
+
+.iniziaprova a {
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.iniziaprova a:hover {
+    filter: brightness(90%);
+}
+
+
+/* parte domande frequenti */
+
+
+.faqbox h3 {
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.faqbox {
+    width: 60%;
+    margin: 100px auto 0;
+}
+
+.faqbox h4 {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.faqrow p {
+    display: none;
+    line-height: 20px;
+}
+
+.faqrow {
+    padding: 30px 0px;
+}
+
+.faqbox img{
+    width: 20px;
+}
+
+.isotto {
+    display: none;
+    
+}
+
+.faqrow:hover p{
+    display: block;
+
+}
+
+.faqrow:hover .isopra{
+    display: none;
+
+}
+
+.faqrow:hover .isotto{
+    display: block;
+
+}
+
