@@ -240,6 +240,13 @@ header a {
 /* main */
 
 /* sezione costi */
+.margincent {
+    padding-left: 20px;
+}
+
+.margincent i {
+    margin-left: -19px;
+}
 
 /* pate sup costi */
 .costibox {
@@ -280,6 +287,8 @@ header a {
     border: 1px solid #b8b8b8 ;
     margin-left: 20px;
 }
+
+
 /* parte centrale costi */
 .costilat {
     width: calc(100% / 3 - 40px);
@@ -536,7 +545,7 @@ header a {
 /* parte sin */
 #designit {
     background-color:#a2d39b;
-    padding: 100px 40px;
+    padding: 110px 40px;
    
 }
 
@@ -548,7 +557,7 @@ header a {
 
 #uf {
     background-color: #0093ce;
-    padding: 110px 40px;
+    padding: 130px 40px;
 }
 
 #topps {
@@ -572,7 +581,7 @@ header a {
 
 #hearts {
     background-color: #b4d0e7;
-    padding: 120px 50px;
+    padding: 130px 50px;
 }
 
 #lonely {
