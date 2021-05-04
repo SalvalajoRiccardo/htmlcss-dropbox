@@ -85,7 +85,7 @@ li {
 }
 
 .buttonblu:hover {
-    background-color: #5fc4f9;
+    filter: brightness(130%);
 }
 
 
@@ -169,8 +169,41 @@ header a {
     border-bottom: 2px solid black;
 }
 
+/* Bonus */
+
+.bonus {
+    position: absolute;
+    width: 235px;
+    right: 335px;
+    top: 78px;
+    display: none;
+    background-color: white;
+    line-height: 40px;
+    padding: 10px 0;
+    border: 1px solid #d8d8db;
+}
 
 
+.navdes ul li:hover ul{
+    display: block;
+}
+
+.bonus li {
+    display: block;
+    width: 100%;
+}
+
+.bonus a {
+    font-size: 15px;
+    padding-left: 25px;
+
+}
+
+.bonus li:hover {
+    background-color: #ebebeb;
+    border: none;
+
+}
 
 /* jumbotron */
 
@@ -364,6 +397,10 @@ header a {
     margin-right: 200px;
     margin-bottom: 30px;
     color: #b8b8b8;
+}
+
+.azzurro {
+    color: #0061ff;
 }
 
 .corpocolbot h5 {
@@ -670,6 +707,11 @@ header a {
 .faqrow p {
     display: none;
     line-height: 20px;
+    color: #637381;
+}
+
+.faqrow a {
+    color: #637381;
 }
 
 .faqrow {
@@ -700,3 +742,59 @@ header a {
 
 }
 
+/* footer */
+footer {
+    background-color: black;
+    height: 600px;
+    padding: 150px 0;
+    margin-top: 150px;
+    
+}
+
+footer * {
+    color: white;
+}
+
+.footerbox {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.boxulfoot {
+    margin-bottom: 100px;
+}
+
+.listafinale {
+    width: 20%;
+}
+
+.listafinale h4 {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.listafinale a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.listafinale a:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    margin-right: 950px;
+    margin-bottom: 50px;
+}
+
+#lenguage {
+    color: #666666;
+    font-size: 13px;
+}
+
+#lenguage i {
+    filter: brightness(40%);
+    vertical-align: middle;
+}
